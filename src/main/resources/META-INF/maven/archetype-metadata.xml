@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="prject">
+  <fileSets>
+    <fileSet filtered="true" package="true">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" package="false">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.properties</include>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" package="false">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.properties</include>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" package="true">
+      <directory>src/test/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <requiredProperties>
+    <!--<requiredProperty key="port"/>-->
+    <requiredProperty key="groupId">
+      <defaultValue>cn.eastseven</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="package">
+      <defaultValue>cn.eastseven</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
+</archetype-descriptor>
+
