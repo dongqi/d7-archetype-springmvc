@@ -1,4 +1,5 @@
 target/
+<<<<<<< HEAD
 
 .classpath
 .project
@@ -7,3 +8,5 @@ target/
 **/*.class
 
 *.iml
+=======
+>>>>>>> e4db352746ed72981091a12f517b1940c467fac3
